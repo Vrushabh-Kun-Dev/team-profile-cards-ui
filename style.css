@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.team-section {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+}
+
+.profile-card{
+    background: #f7f3eb;
+    padding: 20px 30px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.profile-card:hover {
+    transform: translateY(-8px);
+}
+
+.profile-card img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+.profile-card h2{
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #222;
+
+}
+.profile-card p{
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+    
+}
